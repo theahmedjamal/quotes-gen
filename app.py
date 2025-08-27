@@ -60,7 +60,7 @@ st.markdown(
 )
 
 # ============ APP TITLE ============
-st.markdown("<h1 style='color:#4B0082; font-family:Georgia;'>✨Random Quotes Generator✨</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#4B0082; font-family:Georgia;'>✨Quotes Generator✨</h1>", unsafe_allow_html=True)
 
 # ============ TOPIC SELECTION ============
 topic = st.selectbox("Choose a Topic", list(quotes.keys()))
